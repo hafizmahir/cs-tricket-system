@@ -13,3 +13,6 @@ useState is a React Hook used to store and update data in a component. It return
 4. How can you share state between components?
 
 State can be shared by moving it to their common parent component. The parent can then pass the state and update function to child components using props.
+5. How is event handling done in React?
+
+React handles events using event handlers such as onClick, onChange, and onSubmit. We pass a function to the event handler to perform an action.
